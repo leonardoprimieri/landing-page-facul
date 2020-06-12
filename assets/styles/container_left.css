@@ -1,0 +1,41 @@
+.container .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .left .text-content,
+.container_b .right .text-content {
+  margin-top: 40px;
+  width: 560px;
+}
+
+.container .left .text-content h1,
+.container_b .right .text-content h1 {
+  font-family: Ubuntu;
+  color: var(--primary-font-color);
+  font-weight: 700;
+  font-size: 54px;
+}
+
+.http-meaning-h1 {
+  font-size: 30px !important;
+}
+
+.container .left .text-content h3 {
+  font-family: Ubuntu;
+  color: var(--primary-font-color);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.container .left .text-content p,
+.container_b .right .text-content p {
+  font-family: Roboto, "sans-serif";
+  color: #6c6c80;
+  font-size: 20px;
+}
+
+.container_b .left img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,56 @@
+.btn-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.btn-switcher p {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-switcher--checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.btn-switcher--toggle {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-switcher--toggle::before,
+.btn-switcher--toggle::after {
+  content: "";
+  transition: all ease-in 200ms;
+}
+
+.btn-switcher--toggle::before {
+  display: inline-block;
+  height: 21px;
+  width: 37px;
+  background: #212121;
+  border-radius: 1em;
+}
+
+.btn-switcher--toggle::after {
+  position: absolute;
+  top: 0.025em;
+  left: 0.025em;
+  height: 20px;
+  width: 20px;
+  background: white;
+  border-radius: 100%;
+}
+
+.btn-switcher--checkbox:checked + .btn-switcher--toggle::before {
+  background: #6c63ff;
+}
+.btn-switcher--checkbox:checked + .btn-switcher--toggle::after {
+  left: 1.025em;
+}

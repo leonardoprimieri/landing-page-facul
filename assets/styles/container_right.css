@@ -1,0 +1,16 @@
+.container .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .right a {
+  font-weight: bold;
+  font-family: Roboto;
+  color: var(--primary-font-color);
+  font-size: 16px;
+}
+
+.container .right img {
+  width: 100%;
+  height: auto;
+}

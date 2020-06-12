@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/container_left.css" />
+    <link rel="stylesheet" href="assets/styles/container_right.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/btn-switcher.css" />
+    
+    <link
+      rel="shortcut icon"
+      href="assets/icons/icons8-escudo-de-segurança-64.ico"
+      type="image/x-icon"
+    />
+    <title>HTTPS: Como te protege?</title>
+      
+  </head>
+  <body >
+    <header>
+      <nav>
+          <ul class="header_nav">
+              <li><a href="#">Segurança na WEB</a> </li>
+              <li><a href="#http_meaning">O que é HTTP</a></li>
+              <li><a href="#protecting_yourself">Protegendo-se</a> </li> 
+              <li id="contact"><a>Contato</a> 
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/leonardo.primierimerlo"> Facebook</a>
+                    <a href="https://www.instagram.com/?hl=pt-br"> Instagram</a>
+                    <a href="https://www.linkedin.com/in/leonardo-merlo-primieri-534211197/"> LinkedIn</a>
+                    <a href="https://github.com/leonardoprimieri"> Github</a>
+                    
+                  </li>
+                </ul>
+              </li>
+          </ul>
+      </nav>
+      <div class="menu-mobile">
+          <img src="assets/icons/menu.png" >
+      </div>
+      <div class="btn-switcher">
+        <p>Light</p>
+        <input type="checkbox"   class="btn-switcher--checkbox" id="dark-light">
+        <label for="dark-light" class="btn-switcher--toggle"></label>
+        <p>Dark</p>
+
+      </div>
+  </header>
+    <div class="container">
+      <div class="left">
+        <div class="text-content">
+          <h1 id="http_meaning">O que é HTTP?</h1>
+          <p>
+            O protocolo de transferência de hipertexto (HTTP – HyperText
+            Transfer Protocol) é o protocolo padrão para a Web. Ele serve de
+            ponte entre você e o site que está tentando acessar. No entanto esse
+            método transforma seus dados em texto deixando-os fáceis de serem
+            modificados. Sendo assim, alguém pode pegar esses dados e lê-los.
+          </p>
+          <h1 class="http-meaning-h1">Ai entra o HTTPS...</h1">
+          <p>
+            Com o uso do HTTPS, que é o HTTP seguro, adiciona-se alguns
+            princípios de segurança, como confidencialidade, integridade e
+            autenticação. Por confidencialidade, entende-se que a mensagem só é
+            lida pelo destinatário real da mensagem.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <img src="assets/icons/undraw_security_o890.svg" />
+      </div>
+    </div>
+    
+    <div class="container_b">
+      <div class="left">
+        <img src="assets/icons/undraw_web_search_eetr.svg" />
+      </div>
+      <div class="right">
+        <div class="text-content">
+          <h1 id="protecting_yourself">Protegendo-se</h1>
+          <p>
+            Então, se o website começa com https:// ao invés de http://, ele é
+            um website seguro. Por isso lembre-se sempre de conferir isso.
+            Afinal você não quer ser alvo de ataques, não é mesmo?
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+          <p>Criado e desenvolvido por Leonardo Merlo Primieri</p>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
