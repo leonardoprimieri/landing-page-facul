@@ -5,8 +5,6 @@ Ciências da Computação da IMED, para a disciplina de desafios da profissão.
 
 ## Linguagens utilizadas
 
-# Markdown
-
 - HTML5
 - CSS3
 - JavaScript
