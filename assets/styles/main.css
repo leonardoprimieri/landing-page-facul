@@ -79,15 +79,6 @@ ul li a:hover {
   text-align: center;
 }
 
-.header_nav #contact ul {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  min-width: 200px;
-  background-color: var(--primary-font-color);
-}
-
 .header_nav #contact:hover ul {
   display: flex;
 }
@@ -109,6 +100,8 @@ header {
   max-width: 80%;
   margin: auto;
   margin-top: 100px;
+  box-shadow: 2px 2px 10px -4px rgba(0, 0, 0, 0.9);
+  padding: 40px;
 }
 
 footer {

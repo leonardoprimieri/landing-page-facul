@@ -1,0 +1,59 @@
+.contact-info {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  gap: 32px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  font: 20px Roboto;
+  color: #6c6c80;
+  box-shadow: 2px 2px 10px -4px rgba(0, 0, 0, 0.9);
+  padding: 40px;
+}
+
+.contact-info .profile-icon {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #6c63ff;
+}
+
+.contact-info h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font: 32px Ubuntu;
+  font-weight: bold;
+  color: #322153;
+}
+
+.contact--image {
+  display: flex;
+  justify-content: center;
+}
+
+.contact--content---socials {
+  display: flex;
+}
+
+.contact--content---socials li {
+  list-style-type: none;
+  margin-left: 24px;
+}
+
+.contact--content---socials li:first-child {
+  margin-left: 0;
+}
+.contact--content---socials .social-icon {
+  width: 32px;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+}
